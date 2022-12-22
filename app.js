@@ -1,6 +1,6 @@
 const express = require("express");
-require("./db/conn");
-const product = require("./models/products");
+require("./conn");
+const product = require("./products");
 const app = express();
 const port = process.env.PORT || 3000;
 
